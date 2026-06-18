@@ -1,0 +1,79 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+body {
+    background-image: url(Ujian\ HTML/img/back.jpg);
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}  
+#beranda {
+    text-align: center;
+    color: white;
+    font-size:300%;
+    background-color: rgb(6, 46, 48);
+    margin-top: 0;
+    padding: 100px;
+}
+h1 {
+    color: cadetblue;
+}
+h2, h3,{
+    font-size: 250%;
+}
+img {
+    width: 50%;
+    height: 50%;
+}
+.date {
+    color: rgb(63, 110, 196);
+}
+span {
+    font-size: 70px;
+}
+video {
+    width: 50%;
+    height: 50%;
+}
+fieldset {
+    width: 316px;
+    
+}
+.submit {
+    text-align: center;
+}
+nav {
+    background-color: rgb(60, 117, 119);
+    height: 100px;
+    width: 100%;
+}
+nav .navigasi li {
+    display: inline-block;
+    line-height: 100px;
+    list-style-type: none;
+    
+}
+nav .navigasi li a {
+    margin: 100px;
+    color: rgb(224, 236, 245);
+    font-family: Rockwell;
+    font-size: 25px;
+}
+nav .navigasi li a:hover {
+    color: rgb(60, 117, 119);
+    background-color:rgb(224, 236, 245) ;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s;
+}
+nav .navigasi li a:active {
+    opacity: 0.4;
+}
+table {
+    background-color: rgb(85, 159, 161);
+    color: rgb(231, 239, 240);
+}
+input, textarea,select {
+    background-color: rgb(158, 219, 223);
+    color:black;
+}
